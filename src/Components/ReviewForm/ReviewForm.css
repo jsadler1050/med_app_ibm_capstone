@@ -1,0 +1,22 @@
+  .reviews-container {
+    margin: 10%;
+    padding: 20px;   
+   }
+   th {
+       padding: 10px;
+       background-color: lightgray;
+   }
+   .report-table {
+       width: 80%;
+   }
+
+   .disabled-button {
+    background-color: #ccc; 
+    color: #666; 
+    cursor: not-allowed; 
+  }
+  
+ .disabled-button:hover {
+    opacity: 0.8;
+  }
+  
