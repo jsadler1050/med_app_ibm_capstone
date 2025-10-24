@@ -1,6 +1,8 @@
 // Import necessary modules from React library
 import React from 'react';
 import Landing_Page from './Components/Landing_Page/Landing_Page';
+import Login from './Components/Login/Login';
+import Sign_Up from './Components/Sign_Up/Sign_Up';
 
 // Import components for routing from react-router-dom library
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -23,6 +25,8 @@ function App() {
           <Routes>
             {/* Define individual Route components for different pages */}
             <Route path="/" element={<Landing_Page/>}/>
+            <Route path="/login" element={<Login />} /> {/* Route for login page */}
+            <Route path="/signup" element={<Sign_Up />} /> {/* Route for sign up page */}
           </Routes>
         </BrowserRouter>
     </div>
