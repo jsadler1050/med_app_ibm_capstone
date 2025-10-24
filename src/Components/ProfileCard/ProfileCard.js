@@ -7,7 +7,7 @@ const ProfileForm = () => {
     const [userDetails, setUserDetails] = useState({});
     const [updatedDetails, setUpdatedDetails] = useState({});
     const [editMode, setEditMode] = useState(false);
-    const navigate = useNavigate();
+    const navigate = useNavigate(); //Access navigation funcitonality from React Router
   useEffect(() => {
     const authtoken = sessionStorage.getItem("auth-token");
     if (!authtoken) {
